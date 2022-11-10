@@ -1,10 +1,4 @@
-/*********************************************/
-/* STAT 330, Fall 2022						 */
-/* Homework #7A								 */
-/* Donya Behroozi and Grace Trenholme		 */
-/*********************************************/
-
-*1a;
+1a;
 filename readfile '/home/u62368731/sasuser.v94/Homework/Halloween Candy.csv';
 data hallCandies;
 	infile readfile dlm = ',' dsd firstobs = 2;
